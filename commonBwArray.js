@@ -11,8 +11,10 @@ function convertArrayToObject (array){
 array1Obje =  convertArrayToObject(array1)
 
 
-for(let item of array2){
-    if(array1Obje[item]){
-        return true
-    }
-}
+// for(let item of array2){
+//     if(array1Obje[item]){
+//         return true
+//     }
+// }
+// console.log(Math.pow(99999, 99999)*34);
+console.log([]==[])
