@@ -60,7 +60,21 @@ class BinarySearchTree {
    
   }
   lookup(value){
-
+    while(true){
+      // console.log(this.root)
+      if(!this.root){
+      return "Not Found"
+      }
+      if(this.root.value == value){
+        return this.root.value
+      }
+      if(this.root.value > value){
+          this.root = this.root.left
+      }
+      this.root = this.root.right
+      // console.log(this.root)
+    }
+    
   }
 }
 
@@ -68,8 +82,8 @@ const tree = new BinarySearchTree();
 tree.insert(6)
 tree.insert(4)
 tree.insert(10)
-
-console.log(tree.insert(7))
+tree.insert(7)
+console.log(tree.lookup(10))
 
 
 
