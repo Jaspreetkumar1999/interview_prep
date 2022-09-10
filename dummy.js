@@ -30,4 +30,8 @@ while(leftIndex < first.length && rightIndex < second.length){
 return   [...array, ...first.slice(leftIndex), ...second.slice(rightIndex)]
 }
 
-console.log(mergeSort([2,1,7,3,9,5]))
+// console.log(mergeSort([2,1,7,3,9,5]))
+while(true){
+    console.log("SSSSSSSSSS")
+    return
+}
